@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Radio Stream Extractor Plugin",
+    "description": "This extension will extract radio streams from the page",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
